@@ -45,7 +45,10 @@ public class Cell {
 
         if (value != 0)
             isFilled = true;
+    }
 
+    public boolean validMove(int value){
+        return false; //TODO: stub
     }
 
     private int setRow (Integer position){
@@ -74,23 +77,7 @@ public class Cell {
     }
 
     private int setColumn (Integer position) {
-//        if ((position % 9) == 0){
-//            return 0;
-//        } else if ((position % 9) == 1){
-//            return 1;
-//        } else if ((position % 9) == 2){
-//            return 2;
-//        } else if ((position % 9) == 3) {
-//            return 3;
-//        } else if ((position % 9) == 4) {
-//            return 4;
-//        } else if ((position % 9) == 5) {
-//            return 5;
-//        } else if ((position % 9) == 6) {
-//            return 6;
-//        } else if ((position % 9) == 7) {
-//            return 7;
-//        } else return 8;
+
         return (position % 9);
     }
 
