@@ -60,14 +60,34 @@ public class Board {
     }
 
     public boolean isSolved() {
-        int i = 0;
-        while (i < 81){
-            if (cells.get(i).getValue() == 0)
+        return (groupSolved() && columnSolved() && rowSolved());
+    }
+
+    public boolean groupSolved() {
+        for (Groups group : groups){
+            if(!group.solved())
                 return false;
-            i++;
         }
         return true;
     }
+
+    public boolean columnSolved(){
+        for(Columns column : columns){
+            if(!column.solved())
+                return false;
+        }
+        return true;
+    }
+
+    public boolean rowSolved(){
+        for(Rows row : rows){
+            if(!row.solved())
+                return false;
+        }
+        return true;
+    }
+
+
 
 //    private List<Board> getAllPossibleBoards(){
 //

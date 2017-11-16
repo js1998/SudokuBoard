@@ -19,4 +19,8 @@ public class Groups {
     public void addCell(Cell cell){
         cells.add(cell);
     }
+
+    public boolean solved(){
+        return false; //stub
+    }
 }

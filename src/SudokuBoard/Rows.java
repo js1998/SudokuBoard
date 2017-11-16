@@ -40,4 +40,10 @@ public class Rows {
         }
         return true;
     }
+
+    public boolean solved(){
+        return false;
+    }
+
+
 }

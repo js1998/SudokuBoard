@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6addd1a8-97a8-41cc-a72b-61bdc5a542de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SudokuBoard.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SudokuBoard/Board.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SudokuBoard/Cell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SudokuBoard/Columns.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SudokuBoard/Groups.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SudokuBoard/Rows.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SudokuBoard/UI/CellButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SudokuBoard/UI/CellButtonActionListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SudokuBoard/UI/SubGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SudokuBoard/UI/SudokuBoardApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SudokuBoard/UI/SudokuBoardUI.java" />
+    <list default="true" id="6addd1a8-97a8-41cc-a72b-61bdc5a542de" name="Default" comment="Merge branch 'master' of https://github.com/js1998/SudokuBoard&#10;&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit.&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SudokuBoard/SudokuBoard/Board.class" afterPath="$PROJECT_DIR$/out/production/SudokuBoard/SudokuBoard/Board.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SudokuBoard/SudokuBoard/Columns.class" afterPath="$PROJECT_DIR$/out/production/SudokuBoard/SudokuBoard/Columns.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SudokuBoard/SudokuBoard/Groups.class" afterPath="$PROJECT_DIR$/out/production/SudokuBoard/SudokuBoard/Groups.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SudokuBoard/SudokuBoard/Rows.class" afterPath="$PROJECT_DIR$/out/production/SudokuBoard/SudokuBoard/Rows.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SudokuBoard/Board.java" afterPath="$PROJECT_DIR$/src/SudokuBoard/Board.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SudokuBoard/Columns.java" afterPath="$PROJECT_DIR$/src/SudokuBoard/Columns.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SudokuBoard/Groups.java" afterPath="$PROJECT_DIR$/src/SudokuBoard/Groups.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SudokuBoard/Rows.java" afterPath="$PROJECT_DIR$/src/SudokuBoard/Rows.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,10 +33,12 @@
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="1169">
+              <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1412#1413#0" expanded="true" />
+                <element signature="e#1483#1484#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,12 +47,27 @@
       <file leaf-file-name="Groups.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Groups.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="759">
+              <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#360#361#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Columns.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Columns.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <folding>
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,10 +76,12 @@
       <file leaf-file-name="Rows.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Rows.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="1148">
+              <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,7 +90,7 @@
       <file leaf-file-name="CellButton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/CellButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="429">
               <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,46 +123,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SudokuBoardUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/SudokuBoardUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SudokuBoardApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/SudokuBoardApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -172,17 +153,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SudokuBoard/Board.java" />
         <option value="$PROJECT_DIR$/src/SudokuBoard/Cell.java" />
-        <option value="$PROJECT_DIR$/src/SudokuBoard/Columns.java" />
-        <option value="$PROJECT_DIR$/src/SudokuBoard/Groups.java" />
-        <option value="$PROJECT_DIR$/src/SudokuBoard/Rows.java" />
         <option value="$PROJECT_DIR$/src/SudokuBoard/UI/CellButton.java" />
         <option value="$PROJECT_DIR$/src/SudokuBoard/UI/CellButtonActionListener.java" />
         <option value="$PROJECT_DIR$/src/SudokuBoard/UI/SubGroup.java" />
         <option value="$PROJECT_DIR$/src/SudokuBoard/UI/SudokuBoardUI.java" />
         <option value="$PROJECT_DIR$/src/SudokuBoard/UI/SudokuBoardApp.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/SudokuBoard/Board.java" />
+        <option value="$PROJECT_DIR$/src/SudokuBoard/Columns.java" />
+        <option value="$PROJECT_DIR$/src/SudokuBoard/Groups.java" />
+        <option value="$PROJECT_DIR$/src/SudokuBoard/Rows.java" />
       </list>
     </option>
   </component>
@@ -208,7 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,14 +211,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SudokuBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SudokuBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SudokuBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SudokuBoard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -474,7 +481,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -488,7 +495,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -518,6 +525,8 @@
           <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -530,6 +539,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#360#361#0" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -537,9 +548,11 @@
     <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Rows.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -576,11 +589,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/SudokuBoardUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="66">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -588,48 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4950">
-          <caret line="160" column="5" lean-forward="false" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
-          <folding>
-            <element signature="e#5366#5367#0" expanded="true" />
-            <element signature="e#5394#5395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Columns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Cell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4950">
-          <caret line="160" column="5" lean-forward="false" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
-          <folding>
-            <element signature="e#5366#5367#0" expanded="true" />
-            <element signature="e#5394#5395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Columns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -642,6 +629,8 @@
           <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -654,6 +643,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#360#361#0" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -664,6 +655,112 @@
           <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/CellButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/CellButtonActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/SubGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/SudokuBoardUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/SudokuBoardApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Rows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -698,6 +795,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/SudokuBoardUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/SudokuBoardApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4950">
+          <caret line="160" column="5" lean-forward="false" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Columns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4950">
+          <caret line="160" column="5" lean-forward="false" selection-start-line="160" selection-start-column="5" selection-end-line="160" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/SudokuBoardApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -710,8 +848,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/SudokuBoardUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="66">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -723,6 +861,101 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/CellButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/CellButtonActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/UI/SubGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Columns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Rows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1148">
+          <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SudokuBoard.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SudokuBoard/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1169">
+          <caret line="86" column="20" lean-forward="false" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

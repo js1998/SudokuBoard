@@ -21,4 +21,8 @@ public class Columns {
 
     }
 
+    public boolean solved(){
+        return false; //stub
+    }
+
 }
