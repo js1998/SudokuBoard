@@ -1,28 +1,13 @@
 package SudokuBoard;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Created by john_ on 2017-11-10.
  */
-public class Columns {
-
-    private List<Cell> cells;
-    private int columnPosition;
+public class Columns extends Units {
 
     public Columns(int columnPosition){
-        this.columnPosition = columnPosition;
-        cells = new ArrayList<>();
+        super(columnPosition);
     }
 
-    public void addCell(Cell cell){
-        cells.add(cell);
-
-    }
-
-    public boolean solved(){
-        return false; //stub
-    }
 
 }
