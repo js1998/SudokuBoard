@@ -38,7 +38,7 @@ public class CellButtonActionListener extends AbstractAction {
             source.setFont(new Font("Arial", Font.PLAIN, 50));
             source.setText("" + (value + 1) + "");
             cellSource = source.getCell();
-            if (cellSource.validMove(value + 1){
+            if (cellSource.validMove(value + 1)){
                 cellSource.setValue(value + 1);
             }//throw exception
         }

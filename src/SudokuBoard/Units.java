@@ -26,13 +26,25 @@ public class Units {
         List<Integer> previousEntries = new ArrayList<>();
         for (Cell cell: cells) {
             Integer cellValue = cell.getValue();
-            if (cellValue == 0){
-                return false;
-            }else if (previousEntries.contains(cellValue)) {
+            if (cellValue == 0) {
                 return false;
             }
-            previousEntries.add(cellValue);
+        }
+        return isValid();
+    }
+
+    public boolean isValid(){
+        List<Integer> previousEntries = new ArrayList<>();
+        for (Cell cell: cells) {
+            Integer cellValue = cell.getValue();
+            if (previousEntries.contains(cellValue)) {
+                return false;
+            }
+             if(cellValue !=0){
+                previousEntries.add(cellValue);
+             }
         }
         return true;
+
     }
 }

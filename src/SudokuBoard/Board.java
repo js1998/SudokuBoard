@@ -59,6 +59,34 @@ public class Board {
         cellGroup.addCell(cell);
     }
 
+    public boolean isValid(){
+        return(isGroupsValid() && isColumnsValid() && isRowsValid());
+    }
+
+    public boolean isGroupsValid(){
+        for(Groups group : groups){
+            if(!group.isValid())
+                return false;
+        }
+        return true;
+    }
+
+    public boolean isColumnsValid(){
+        for(Columns column : columns){
+            if(!column.isValid())
+                return false;
+        }
+        return true;
+    }
+
+    public boolean isRowsValid(){
+        for(Rows row : rows){
+            if(!row.isValid())
+                return false;
+        }
+        return true;
+    }
+
     public boolean isSolved() {
         return (groupSolved() && columnSolved() && rowSolved());
     }
@@ -133,26 +161,6 @@ public class Board {
 
         return copyOfCurrentBoard;
     }
-
-//    public boolean isAllowed(){
-//
-//        for(Rows row: rows){
-//            if(!row.isValid())
-//                return false;
-//        }
-//
-//        for(Columns column: columns){
-//            if(!column.isValid())
-//                return false;
-//        }
-//
-//        for(Groups group: groups){
-//            if(!group.isValid())
-//                return false;
-//        }
-//
-//        return true;
-//    }
 
     private void createRows(){
         int i = 0;

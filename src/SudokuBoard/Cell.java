@@ -48,7 +48,7 @@ public class Cell {
     }
 
     public boolean validMove(int value){
-        return false; //TODO: stub
+        return false;
     }
 
     private int setRow (Integer position){
@@ -86,32 +86,6 @@ public class Cell {
     }
 
     private int setGroups () {
-//        if (getRow().equals(Rows.R0) || getRow().equals(Rows.R1) || getRow().equals(Rows.R2)) {
-//            if (getColumn().equals(Columns.C0) || getColumn().equals(Columns.C1) || getColumn().equals(Columns.C2)) {
-//                group = Groups.G0;
-//            } else if (getColumn().equals(Columns.C3) || getColumn().equals(Columns.C4) || getColumn().equals(Columns.C5)) {
-//                group = Groups.G1;
-//            } else if (getColumn().equals(Columns.C6) || getColumn().equals(Columns.C7) || getColumn().equals(Columns.C8)) {
-//                group = Groups.G2;
-//            }
-//
-//        } else if (getRow().equals(Rows.R3) || getRow().equals(Rows.R4) || getRow().equals(Rows.R5)) {
-//            if (getColumn().equals(Columns.C0) || getColumn().equals(Columns.C1) || getColumn().equals(Columns.C2)) {
-//                group = Groups.G3;
-//            } else if (getColumn().equals(Columns.C3) || getColumn().equals(Columns.C4) || getColumn().equals(Columns.C5)) {
-//                group = Groups.G4;
-//            } else if (getColumn().equals(Columns.C6) || getColumn().equals(Columns.C7) || getColumn().equals(Columns.C8)) {
-//                group = Groups.G5;
-//            }
-//        } else if (getRow().equals(Rows.R6) || getRow().equals(Rows.R7) || getRow().equals(Rows.R8)) {
-//            if (getColumn().equals(Columns.C0) || getColumn().equals(Columns.C1) || getColumn().equals(Columns.C2)) {
-//                group = Groups.G6;
-//            } else if (getColumn().equals(Columns.C3) || getColumn().equals(Columns.C4) || getColumn().equals(Columns.C5)) {
-//                group = Groups.G7;
-//            } else if (getColumn().equals(Columns.C6) || getColumn().equals(Columns.C7) || getColumn().equals(Columns.C8)) {
-//                group = Groups.G8;
-//            }
-//        }
 
         if (getRow()>= 0 && getRow() <= 2) {
             if (getColumn() >=0 && getColumn() <=2) {
