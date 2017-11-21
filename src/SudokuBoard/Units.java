@@ -23,10 +23,8 @@ public class Units {
 
     public boolean solved() {
 
-        List<Integer> previousEntries = new ArrayList<>();
         for (Cell cell: cells) {
-            Integer cellValue = cell.getValue();
-            if (cellValue == 0) {
+            if(!cell.isFilled()){
                 return false;
             }
         }

@@ -38,21 +38,21 @@ public class BoardTests {
                 newBoard.getCell(i).setValue(i);
                 i++;
             }
-            assertTrue(newBoard.rowSolved());
+            assertTrue(newBoard.isRowsValid());
         }
 
         @Test
         public void testRowWithDuplicates(){
             newBoard.getCell(1).setValue(2);
             newBoard.getCell(4).setValue(2);
-            assertFalse(newBoard.rowSolved());
+            assertFalse(newBoard.isRowsValid());
         }
 
         @Test
         public void testGroupsWithDuplicates(){
             newBoard.getCell(1).setValue(2);
             newBoard.getCell(9).setValue(2);
-            assertFalse(newBoard.groupSolved());
+            assertFalse(newBoard.isGroupsValid());
         }
 
         @Test
@@ -66,14 +66,14 @@ public class BoardTests {
             newBoard.getCell(18).setValue(7);
             newBoard.getCell(19).setValue(8);
             newBoard.getCell(20).setValue(9);
-            assertTrue(newBoard.groupSolved());
+            assertTrue(newBoard.isGroupsValid());
         }
 
         @Test
         public void testColumnsWithDuplicates(){
             newBoard.getCell(1).setValue(2);
             newBoard.getCell(28).setValue(2);
-            assertFalse(newBoard.columnSolved());
+            assertFalse(newBoard.isColumnsValid());
         }
 
         @Test
@@ -85,7 +85,7 @@ public class BoardTests {
                 i = i+9;
                 value++;
             }
-            assertTrue(newBoard.columnSolved());
+            assertTrue(newBoard.isColumnsValid());
         }
 
         @Test
