@@ -1,5 +1,6 @@
 package SudokuBoard.UI;
 
+import SudokuBoard.Board;
 import SudokuBoard.Cell;
 
 import javax.swing.*;
@@ -13,8 +14,12 @@ public class CellButtonActionListener extends AbstractAction {
 
     CellButton source;
     Cell cellSource;
+    int cellPosition;
+    Board board;
     JOptionPane optionPane;
+    Frame frame;
     int value;
+    int error;
 
 
     @Override
@@ -35,12 +40,19 @@ public class CellButtonActionListener extends AbstractAction {
 
         if (value != -1) {
             source = (CellButton) e.getSource();
-            source.setFont(new Font("Arial", Font.PLAIN, 50));
-            source.setText("" + (value + 1) + "");
+            board = source.getBoard();
             cellSource = source.getCell();
-            if (cellSource.validMove(value + 1)){
-                cellSource.setValue(value + 1);
-            }//throw exception
+            cellPosition = cellSource.getPosition();
+            int previousValue = cellSource.getValue();
+            cellSource.setValue(value + 1);
+            if (board.isValidMove(value + 1, cellPosition)){
+                source.setFont(new Font("Arial", Font.PLAIN, 50));
+                source.setText("" + (value + 1) + "");
+            } else{
+                cellSource.setValue(previousValue);
+                JOptionPane.showInternalMessageDialog(optionPane, "Invalid Move", "Invalid Move", JOptionPane.ERROR_MESSAGE);
+                //TODO: fix error message
+            }
         }
 
         value = 0;

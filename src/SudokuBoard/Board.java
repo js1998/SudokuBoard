@@ -115,6 +115,15 @@ public class Board {
         return true;
     }
 
+    public boolean isValidMove(int value, int cellPosition){
+        Cell cell = cells.get(cellPosition);
+        Groups group = groups.get(cell.getGroup());
+        Columns column = columns.get(cell.getColumn());
+        Rows row = rows.get(cell.getRow());
+
+        return (group.isValid() && column.isValid() && row.isValid());
+    }
+
 
 
 //    private List<Board> getAllPossibleBoards(){

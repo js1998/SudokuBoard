@@ -47,9 +47,7 @@ public class Cell {
             isFilled = true;
     }
 
-    public boolean validMove(int value){
-        return false;
-    }
+
 
     private int setRow (Integer position){
 

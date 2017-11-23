@@ -24,4 +24,8 @@ public class CellButton extends JButton{
 
         return cell;
     }
+
+    public Board getBoard(){
+        return board;
+    }
 }
