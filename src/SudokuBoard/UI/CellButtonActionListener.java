@@ -4,6 +4,7 @@ import SudokuBoard.Board;
 import SudokuBoard.Cell;
 
 import javax.swing.*;
+import javax.swing.plaf.FontUIResource;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 
@@ -17,9 +18,9 @@ public class CellButtonActionListener extends AbstractAction {
     int cellPosition;
     Board board;
     JOptionPane optionPane;
-    Frame frame;
+    JOptionPane errorPane;
     int value;
-    int error;
+    int errorValue;
 
 
     @Override
@@ -27,7 +28,8 @@ public class CellButtonActionListener extends AbstractAction {
 
         String[] options = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
-        UIManager.put("OptionPane.minimumSize", new Dimension(500,150));
+        UIManager.put("OptionPane.minimumSize", new Dimension(500,200));
+        UIManager.put("OptionPane.buttonFont", new FontUIResource(new Font("ARIAL", Font.PLAIN, 50)));
         value = JOptionPane.showOptionDialog(optionPane,
                 "Choose Value for Cell",
                 "Input Values",
@@ -37,12 +39,12 @@ public class CellButtonActionListener extends AbstractAction {
                 options,
                 null
         );
+        source = (CellButton) e.getSource();
+        board = source.getBoard();
+        cellSource = source.getCell();
+        cellPosition = cellSource.getPosition();
 
         if (value != -1) {
-            source = (CellButton) e.getSource();
-            board = source.getBoard();
-            cellSource = source.getCell();
-            cellPosition = cellSource.getPosition();
             int previousValue = cellSource.getValue();
             cellSource.setValue(value + 1);
             if (board.isValidMove(value + 1, cellPosition)){
@@ -50,11 +52,18 @@ public class CellButtonActionListener extends AbstractAction {
                 source.setText("" + (value + 1) + "");
             } else{
                 cellSource.setValue(previousValue);
-                JOptionPane.showInternalMessageDialog(optionPane, "Invalid Move", "Invalid Move", JOptionPane.ERROR_MESSAGE);
-                //TODO: fix error message
+
+                UIManager.put("OptionPane.minimumSize", new Dimension(500,150));
+                JOptionPane.showMessageDialog(optionPane,
+                        "Invalid Value",
+                        "Error",
+                        JOptionPane.OK_OPTION,
+                        null);
+
+
+                }
             }
         }
 
-        value = 0;
+        //value = 0;
     }
-}
