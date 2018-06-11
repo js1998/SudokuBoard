@@ -1,5 +1,9 @@
 package SudokuBoard;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,6 +30,10 @@ public class Board {
             addToGroup(cell);
             i++;
         }
+
+		//set-up initialization of a simple board
+
+		initializeBoard();
     }
 
     public int getNumberOfCells(){
@@ -125,27 +133,6 @@ public class Board {
     }
 
 
-
-//    private List<Board> getAllPossibleBoards(){
-//
-//        List<Board> possibleBoards = new LinkedList<>();
-//
-//        int i = 1;
-//        while (i < 10){
-//            Board copyOfCurrentBoard = getCopyOfCurrentBoard();
-//            Cell emptyCell = copyOfCurrentBoard.getFirstEmptyCellPosition();
-//            emptyCell.setValue(i);
-//
-//            if(copyOfCurrentBoard.isAllowed()){
-//                possibleBoards.add(copyOfCurrentBoard);
-//            }
-//
-//            i++;
-//        }
-//
-//        return possibleBoards;
-//    }
-
     private Cell getFirstEmptyCellPosition(){
 
         for (Cell cell : cells){
@@ -198,31 +185,20 @@ public class Board {
         }
     }
 
-//    private class SudokuSolver {
-//
-//        private Board currentBoard;
-//        private List<Board> boardsToSolve;
-//
-//        public Board solver (Board board) {
-//
-//            currentBoard = board;
-//            boardsToSolve = new LinkedList<>();
-//            boardsToSolve.add(board);
-//
-//            while (!boardsToSolve.isEmpty()){
-//                currentBoard = boardsToSolve.get(0);
-//                boardsToSolve.remove(0);
-//
-//                if (currentBoard.isSolved()){
-//                    return currentBoard;
-//                }
-//                List<Board> possibleBoards = currentBoard.getAllPossibleBoards();
-//                boardsToSolve.addAll(0,possibleBoards);
-//            }
-//
-//            return null; //TODO: make robust
-//        }
-//
-//    }
+	private void initializeBoard(){
+        File file = new File("input.txt");
+
+        try {
+            BufferedReader br = new BufferedReader((new FileReader(file)));
+            String st;
+            while((st = br.readLine()) != null)
+                System.out.println(st);
+        } catch (Exception e) {
+            e.printStackTrace();
+            //TODO: throw an error message to the user
+        }
+
+
+    }
 
 }
