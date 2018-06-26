@@ -19,7 +19,7 @@ public class SudokuBoardUI {
         sudokuWindow.setLayout(new BorderLayout());
         sudokuWindow.add(sudokuBoardApp);
         sudokuWindow.pack();
-        sudokuWindow.setSize(1400, 1400);
+        sudokuWindow.setSize(750, 750);
         sudokuWindow.setVisible(true);
     }
 

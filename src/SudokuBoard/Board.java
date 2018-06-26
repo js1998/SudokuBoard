@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.StringTokenizer;
 
 /**
  * Created by john_ on 2017-11-10.
@@ -190,12 +191,21 @@ public class Board {
 
         try {
             BufferedReader br = new BufferedReader((new FileReader(file)));
-            String st;
-            while((st = br.readLine()) != null)
-                System.out.println(st);
+            String str = br.readLine();
+            StringTokenizer data = new StringTokenizer(str);
+            while(data.hasMoreTokens()){
+                String[] num = data.nextToken().split(",");
+                if (num[1] != "0"){
+                    int idx = Integer.valueOf(num[0]);
+                    int value = Integer.valueOf(num[1]);
+
+                    Cell cell = cells.get(idx);
+                    cell.setValue(value);
+                }
+            }
         } catch (Exception e) {
             e.printStackTrace();
-            //TODO: throw an error message to the user
+            //TODO: throw error message if input file is malformed
         }
 
 

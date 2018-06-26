@@ -49,6 +49,7 @@ public class CellButtonActionListener extends AbstractAction {
             cellSource.setValue(value + 1);
             if (board.isValidMove(value + 1, cellPosition)){
                 source.setFont(new Font("Arial", Font.PLAIN, 50));
+                source.setForeground(Color.RED);
                 source.setText("" + (value + 1) + "");
             } else{
                 cellSource.setValue(previousValue);
